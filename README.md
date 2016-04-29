@@ -1,5 +1,6 @@
 # Cpp - Open Neural Network v. alpha0.5
 *Educational purporse  - for now. The purpose is only to keep growing an open source community on machine learning.* <br>
+<br>
 C++ Project that can build a simple multi layer Neural Network able to handle XOR logic problem: an non linear classification problem. 
 
 Input1|Input2|Output
@@ -16,7 +17,9 @@ Now working on Genetic Algorithm to create a reinforcement training that could b
 
 ## What is a Neural Network?
 The project is separated into 4 classes that create the Neural Network *(network.h)*: a bunch of connected *(connection.h)* neurons *(neuron.h)* organized by a layer *(layer.h)*. The Neural Network can handles differents layers: **X neurons \*literal asterisks\* X connections**; and communicates between these layers to train them (back propagation learnin).<br>
+<br>
 ![Neural Network](http://www.codeproject.com/KB/recipes/NeuralNetwork_1/NN2.png)<br>
+<br>
 If you want to learn more about Neural Network, you better read this great article of Sach Barber: [AI : Neural Network for beginners](http://www.codeproject.com/Articles/16419/AI-Neural-Network-for-beginners-Part-of)
 
 
