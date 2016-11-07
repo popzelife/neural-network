@@ -1,4 +1,5 @@
 # Cpp - Open Neural Network v. alpha0.5
+![Logo](http://popzelife.me/index/cv/Neural-AI.png)<br>
 *Educational purporse  - for now. The purpose is only to keep growing an open source community on machine learning.* <br>
 <br>
 C++ Project that can build a simple multi layer Neural Network able to handle XOR logic problem: an non linear classification problem. 
@@ -31,3 +32,6 @@ A bunch of articles to give ideas on how to optimize and improve this neural net
 - *[SARAH Documentation](http://jpencausse.github.io/SARAH-Documentation/?lang=en) (english)*
 - [AI Life](http://www.codeproject.com/Articles/28858/AI-Life)
 - [Deep learning with image recognition](http://neuralnetworksanddeeplearning.com/chap1.html)
+
+## Preview
+![Preview](https://dl.dropboxusercontent.com/u/59532932/neuralnetwork-test.png)
