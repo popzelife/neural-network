@@ -1,5 +1,5 @@
+![Logo](http://popzelife.me/index/cv/Neural-AI.png)
 # Cpp - Open Neural Network v. alpha0.5
-![Logo](http://popzelife.me/index/cv/Neural-AI.png)<br>
 *Educational purporse  - for now. The purpose is only to keep growing an open source community on machine learning.* <br>
 <br>
 C++ Project that can build a simple multi layer Neural Network able to handle XOR logic problem: an non linear classification problem. 
