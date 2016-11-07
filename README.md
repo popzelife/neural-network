@@ -13,7 +13,10 @@ Input1|Input2|Output
 
 It uses a supervised learning, actually a Back Propagation training methods that tells where to seek the "needle" according to a set of training. It compares a bunch of Expected Outputs and Actual Outputs to get a "Layer Error". It's the usual form of a Neural Network. <br>
 <br>
-Now working on Genetic Algorithm to create a reinforcement training that could be less efficient than a back propagation learning but would better handle others problems like solving sudoko, or optimizing space in a limited space backpack (eg.).
+Need the implementation of a Genetic Algorithm to create a reinforcement training. It could be less efficient than a back propagation learning but would better handle others problems like solving sudoko, or optimizing space in a limited space backpack by example.
+
+## Libraries
+No additional libraries used except from the std ones. I added a personal [Randomize Class](https://github.com/Kant1-0/random-numbers/blob/master/random.cpp) that computes a unique int or float between a given range.
 
 
 ## What is a Neural Network?
