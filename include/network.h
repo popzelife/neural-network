@@ -34,12 +34,12 @@ class LNeuralNetwork
         void trainNetwork( std::vector<float> inputslist, std::vector<float>
                            expectedOutputsList );
         //Train the entire network, using an array of input and expected data
-        void trainingCycle( std::vector<std::vector<float>> trainingInputList,
-                        std::vector<std::vector<float>> trainingExpectedList,
+        void trainingCycle( std::vector<std::vector<float> > trainingInputList,
+                        std::vector<std::vector<float> > trainingExpectedList,
                         bool trainRandomly );
         //Train the network until the Error is below a specific threshold
-        void autoTrainNetwork(std::vector<std::vector<float>> trainingInputList,
-                        std::vector<std::vector<float>> trainingExpectedList,
+        void autoTrainNetwork(std::vector<std::vector<float> > trainingInputList,
+                        std::vector<std::vector<float> > trainingExpectedList,
                         float trainingErrorTarget, uint64_t cycleLimit );
 
 
@@ -65,8 +65,8 @@ class LNeuralNetwork
 
     private:
         //Train the network until the Error is below a specific threshold
-        void aTN( std::vector<std::vector<float>> trainingInputList,
-                  std::vector<std::vector<float>> trainingExpectedList,
+        void aTN( std::vector<std::vector<float> > trainingInputList,
+                  std::vector<std::vector<float> > trainingExpectedList,
                   float trainingErrorTarget, uint64_t cycleLimit );
 
         //Random class

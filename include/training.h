@@ -31,8 +31,8 @@ class LTraining
         bool addToTrainingOutputs( std::vector<float> output, long index
                                    = TRAINING_ADD_TO_END );
         //Create a vector list at once
-        void createInputsList( std::vector<std::vector<float>> inputsList );
-        void createOutputsList( std::vector<std::vector<float>> outputsList );
+        void createInputsList( std::vector<std::vector<float> > inputsList );
+        void createOutputsList( std::vector<std::vector<float> > outputsList );
 
 
         //Clear elements from training inputs or outputs
@@ -42,8 +42,8 @@ class LTraining
 
     private:
         //Dynamic lists for training functions
-        std::vector<std::vector<float>>     mTrainingInputs;
-        std::vector<std::vector<float>>     mTrainingOutputs;
+        std::vector<std::vector<float> >     mTrainingInputs;
+        std::vector<std::vector<float> >     mTrainingOutputs;
 };
 
 #endif // _TRAINING_H

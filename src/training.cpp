@@ -79,7 +79,7 @@ bool    LTraining::addToTrainingOutputs( std::vector<float> output, long index )
 
 /* Create a vector list at once */
 
-void    LTraining::createInputsList( std::vector<std::vector<float>>
+void    LTraining::createInputsList( std::vector<std::vector<float> >
                                      inputsList )
 {
     if( mTrainingInputs.size() == 0 )
@@ -93,7 +93,7 @@ void    LTraining::createInputsList( std::vector<std::vector<float>>
     }
 }
 
-void    LTraining::createOutputsList( std::vector<std::vector<float>>
+void    LTraining::createOutputsList( std::vector<std::vector<float> >
                                       outputsList )
 {
     if( mTrainingOutputs.size() == 0 )

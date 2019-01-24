@@ -246,8 +246,8 @@ void    LNeuralNetwork::trainNetwork( std::vector<float> inputsList,
 /* Train the entire network, using an array of input and expected data
    within a list of array */
 
-void    LNeuralNetwork::trainingCycle( std::vector<std::vector<float>>
-                        trainingInputList, std::vector<std::vector<float>>
+void    LNeuralNetwork::trainingCycle( std::vector<std::vector<float> >
+                        trainingInputList, std::vector<std::vector<float> >
                         trainingExpectedList, bool trainRandomly )
 {
     uint32_t         dataIndex;
@@ -279,8 +279,8 @@ void    LNeuralNetwork::trainingCycle( std::vector<std::vector<float>>
 
 /* Train the network until the Error is below a specific threshold */
 
-void    LNeuralNetwork::autoTrainNetwork( std::vector<std::vector<float>>
-            trainingInputList, std::vector<std::vector<float>>
+void    LNeuralNetwork::autoTrainNetwork( std::vector<std::vector<float> >
+            trainingInputList, std::vector<std::vector<float> >
             trainingExpectedList, float trainingErrorTarget,
             uint64_t cycleLimit )
 {
@@ -297,8 +297,8 @@ void    LNeuralNetwork::autoTrainNetwork( std::vector<std::vector<float>>
 }
 
 
-void    LNeuralNetwork::aTN( std::vector<std::vector<float>>
-            trainingInputList, std::vector<std::vector<float>>
+void    LNeuralNetwork::aTN( std::vector<std::vector<float> >
+            trainingInputList, std::vector<std::vector<float> >
             trainingExpectedList, float trainingErrorTarget,
             uint64_t cycleLimit )
 {

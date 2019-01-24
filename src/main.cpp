@@ -17,8 +17,8 @@ int main( int argc, char* args[] )
     printf("--------------------------------------------\n");
     printf("NEURAL NETWORK: 2 Neurons x 2/1 connections\n");
     printf("--------------------------------------------\n\n");
-    std::vector<std::vector<float>>* myTrainingInputs = new std::vector<std::vector<float>>;
-    std::vector<std::vector<float>>* myTrainingOutputs = new std::vector<std::vector<float>>;
+    std::vector<std::vector<float> >* myTrainingInputs = new std::vector<std::vector<float> >;
+    std::vector<std::vector<float> >* myTrainingOutputs = new std::vector<std::vector<float> >;
 
     std::vector<float> myInputsA = {0,0};
     std::vector<float> myInputsB = {0,1};
